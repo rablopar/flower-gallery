@@ -6,7 +6,7 @@
 
 .btn {
   border-radius: 5px;
-  background: #f82790;
+  background: #E55473;
   width: 142px;
   height: 45px;
   flex-shrink: 0;
@@ -108,7 +108,7 @@ button {
   text-align: center;
 }
 
-.flower-titel h2{
+.flower-titel h2 {
   color: #272727;
   text-align: center;
   font-family: Lato;
@@ -118,9 +118,74 @@ button {
   line-height: normal;
   margin-top: 50px;
 }
-.flower-titel p{
+
+.flower-titel p {
   width: 409px;
   margin: auto;
   text-align: justify;
   margin-top: 20px;
+}
+
+.contace-area {
+  display: flex;
+  margin: 200px 50px;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 28px;
+}
+
+.discount {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+  margin-bottom: 30px ;
+}
+
+.discount h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: 165px;
+}
+
+.discount h1 span {
+  color: #E55473;
+}
+
+.discount p {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 127px;
+  border: none;
+}
+.nitu{
+  display: block;
+  margin: 35px 348px;
+
+}
+
+.instagram-pic {
+  display: flex;
+  gap: 30px;
+
+}
+
+.instagram-pic img {
+  width: 205px;
+  height: 275px;
+  flex-shrink: 0;
+  /* border-radius: 300px 300px 0px 0px; */
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.instagram-pic {
+  width: 700px;
 }
